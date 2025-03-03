@@ -1,6 +1,6 @@
 {
-  "name": "components",
-  "version": "1.0.0",
+  "name": "@theguild/components",
+  "version": "6.6.4",
   "repository": {
     "url": "https://github.com/AInoah1900",
     "directory": "/components"
