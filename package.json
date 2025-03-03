@@ -1,0 +1,96 @@
+{
+  "name": "@theguild/components",
+  "version": "6.6.4",
+  "repository": {
+    "url": "https://github.com/the-guild-org/docs",
+    "directory": "packages/components"
+  },
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "exports": {
+    "./style.css": "./style.css",
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.mts"
+    },
+    "./next.config": {
+      "import": "./dist/next.config.mjs",
+      "types": "./dist/next.config.d.mts"
+    },
+    "./compile": {
+      "import": "./dist/compile.mjs",
+      "types": "./dist/compile.d.mts"
+    },
+    "./*": {
+      "import": "./dist/*.js",
+      "types": "./dist/*.d.mts"
+    }
+  },
+  "types": "./dist/index.d.mts",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/index.d.mts"
+      ],
+      "logos": [
+        "./dist/logos.d.mts"
+      ],
+      "products": [
+        "./dist/products.d.mts"
+      ],
+      "next.config": [
+        "./dist/next.config.d.mts"
+      ],
+      "compile": [
+        "./dist/compile.d.mts"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "style.css"
+  ],
+  "peerDependencies": {
+    "next": "^13 || ^14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@giscus/react": "3.0.0",
+    "@next/bundle-analyzer": "14.2.5",
+    "clsx": "2.1.1",
+    "fuzzy": "0.1.3",
+    "next-videos": "1.5.0",
+    "nextra": "3.0.0-alpha.32",
+    "nextra-theme-docs": "3.0.0-alpha.32",
+    "react-paginate": "8.2.0",
+    "react-player": "2.16.0",
+    "remark-mdx-disable-explicit-jsx": "0.1.0",
+    "semver": "^7.3.8"
+  },
+  "devDependencies": {
+    "@svgr/babel-plugin-remove-jsx-attribute": "^8.0.0",
+    "@types/dedent": "0.7.2",
+    "@types/react-dom": "18.3.0",
+    "@types/semver": "7.5.8",
+    "dedent": "1.5.3",
+    "esbuild-plugin-svgr": "^2.1.0",
+    "graphql": "16.9.0",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "unified": "^11.0.3",
+    "@theguild/editor": "1.3.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prebuild": "rm -rf dist",
+    "types:check": "tsc --noEmit"
+  }
+}
