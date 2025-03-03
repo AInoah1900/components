@@ -1,9 +1,9 @@
 {
-  "name": "@theguild/components",
-  "version": "6.6.4",
+  "name": "components",
+  "version": "1.0.0",
   "repository": {
-    "url": "https://github.com/the-guild-org/docs",
-    "directory": "packages/components"
+    "url": "https://github.com/AInoah1900",
+    "directory": "/components"
   },
   "license": "MIT",
   "main": "./dist/index.js",

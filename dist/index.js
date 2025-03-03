@@ -978,12 +978,12 @@ function GuildUnifiedLogo({
     /* @__PURE__ */ jsxs18(
       Anchor,
       {
-        title: "View our website",
+        title: "华飞科技",
         className: clsx15(
           "flex items-center gap-x-1.5 transition-opacity hover:opacity-75",
           children && "max-md:hidden"
         ),
-        href: "https://the-guild.dev",
+        href: "https://baidu.com",
         children: [
           /* @__PURE__ */ jsx28(SvgGuild, { className: "h-9 w-auto" }),
           /* @__PURE__ */ jsx28(SvgTheGuild, { className: "w-11" })
