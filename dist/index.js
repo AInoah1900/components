@@ -969,6 +969,7 @@ var NPMBadge = ({ name }) => {
 // src/components/guild-navbar.tsx
 import clsx15 from "clsx";
 import { Fragment as Fragment4, jsx as jsx28, jsxs as jsxs18 } from "react/jsx-runtime";
+// GuildUnifiedLogo 初始化
 function GuildUnifiedLogo({
   children,
   title,
@@ -983,10 +984,11 @@ function GuildUnifiedLogo({
           "flex items-center gap-x-1.5 transition-opacity hover:opacity-75",
           children && "max-md:hidden"
         ),
-        href: "https://baidu.com",
+        href: "http://localhost:3000",
         children: [
           /* @__PURE__ */ jsx28(SvgGuild, { className: "h-9 w-auto" }),
           /* @__PURE__ */ jsx28(SvgTheGuild, { className: "w-11" })
+          // /* @__PURE__ */ jsx28(SvgTheGuild, { className: "w-11" })
         ]
       }
     ),
