@@ -227,55 +227,55 @@ import { InformationCircleIcon, GitHubIcon, DiscordIcon } from "nextra/icons";
 import { jsx as jsx16, jsxs as jsxs9 } from "react/jsx-runtime";
 var COMPANY = [
   {
-    children: "About",
-    title: "Learn more about us",
-    href: "https://the-guild.dev/about-us"
+    children: "关于我们",
+    // title: "Learn more about us",
+    // href: "https://loca/about-us"
   },
   {
-    children: "Blog",
-    title: "Read our blog",
-    href: "https://the-guild.dev/blog"
+    children: "新闻资讯",
+    // title: "Read our blog",
+    // href: "https://the-guild.dev/blog"
   },
   {
-    children: "Newsletter",
-    title: "Newsletter",
-    href: "https://the-guild.dev/newsletter"
+    children: "欢迎订阅",
+    // title: "Newsletter",
+    // href: "https://the-guild.dev/newsletter"
   }
 ];
 var COMMUNITY = [
   {
     icon: SvgTwitter,
     title: "Visit our Twitter",
-    href: "https://twitter.com/TheGuildDev"
+    // href: "https://twitter.com/TheGuildDev"
   },
   {
     icon: SvgLinkedin,
     title: "Visit our LinkedIn",
-    href: "https://linkedin.com/company/the-guild-software"
+    // href: "https://linkedin.com/company/the-guild-software"
   },
   {
     icon: DiscordIcon,
     title: "Reach us on Discord",
-    href: "https://discord.com/invite/xud7bH9"
+    // href: "https://discord.com/invite/xud7bH9"
   },
   {
     icon: GitHubIcon,
     title: "Check our GitHub account",
-    href: "https://github.com/the-guild-org"
+    // href: "https://github.com/the-guild-org"
   },
   {
     icon: SvgYoutube,
     title: "Watch Our Videos",
-    href: "https://youtube.com/watch?v=d_GBgH-L5c4&list=PLhCf3AUOg4PgQoY_A6xWDQ70yaNtPYtZd"
+    // href: "https://youtube.com/watch?v=d_GBgH-L5c4&list=PLhCf3AUOg4PgQoY_A6xWDQ70yaNtPYtZd"
   }
 ];
 var products = [
   PRODUCTS.HIVE,
   PRODUCTS.MESH,
-  PRODUCTS.YOGA,
-  PRODUCTS.CODEGEN,
-  PRODUCTS.NEXTRA,
-  { ...PRODUCTS.SOFA, name: "GraphQL to REST" }
+  // PRODUCTS.YOGA,
+  // PRODUCTS.CODEGEN,
+  // PRODUCTS.NEXTRA,
+  // { ...PRODUCTS.SOFA, name: "GraphQL to REST" }
 ].map(({ name, href, title }) => ({
   children: name,
   href,
@@ -304,36 +304,36 @@ function Footer({
           Anchor,
           {
             className: "flex items-center gap-2 self-start",
-            href: "https://the-guild.dev",
+            href: "http://localhost:3000",
             sameSite,
             ...logo,
             children: [
               /* @__PURE__ */ jsx16(SvgGuild, { className: "h-9 w-auto" }),
-              /* @__PURE__ */ jsx16(SvgTheGuild, { className: "h-7 w-auto" })
+              /* @__PURE__ */ jsx16(SvgTheGuild, { className: "h-7 w-auto",height: "55px" })
             ]
           }
         ),
         /* @__PURE__ */ jsxs9("div", { children: [
-          /* @__PURE__ */ jsx16("h3", { className: classes.title, children: "Products" }),
+          /* @__PURE__ */ jsx16("h3", { className: classes.title, children: "产品生态" }),
           /* @__PURE__ */ jsx16("div", { className: "flex gap-6", children: renderLinks(products) })
         ] }),
         /* @__PURE__ */ jsxs9("div", { children: [
-          /* @__PURE__ */ jsx16("h3", { className: classes.title, children: "Resources" }),
+          /* @__PURE__ */ jsx16("h3", { className: classes.title, children: "服务案例" }),
           renderLinks([
             {
               children: "Press Kit",
               title: "Press Kit",
-              href: "https://the-guild.dev/logos"
+              // href: "https://the-guild.dev/logos"
             },
             ...resources
           ])
         ] }),
         /* @__PURE__ */ jsxs9("div", { children: [
-          /* @__PURE__ */ jsx16("h3", { className: classes.title, children: "Company" }),
+          /* @__PURE__ */ jsx16("h3", { className: classes.title, children: "公司相关" }),
           renderLinks(COMPANY)
         ] }),
         /* @__PURE__ */ jsx16("div", { className: "flex gap-5 text-[#b4b5be]", children: COMMUNITY.map(({ icon: Icon, ...iconProps }) => /* @__PURE__ */ jsx16(Anchor, { className: classes.anchor, ...iconProps, children: /* @__PURE__ */ jsx16(Icon, { className: "h-5 w-auto" }) }, iconProps.title)) }),
-        /* @__PURE__ */ jsx16(SvgCsaStarLevelOne, { className: "absolute right-0 ml-auto h-[4.5rem] w-auto md:bottom-0" })
+        // /* @__PURE__ */ jsx16(SvgCsaStarLevelOne, { className: "absolute right-0 ml-auto h-[4.5rem] w-auto md:bottom-0" })
       ] }) })
     }
   );

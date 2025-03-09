@@ -26,7 +26,7 @@ import {
 // src/products.ts
 var PRODUCTS = {
   HIVE: {
-    name: "Hive",
+    name: "ChatBot",
     title: "Schema registry for your GraphQL workflows",
     href: "https://the-guild.dev/graphql/hive",
     logo: SvgHive,
