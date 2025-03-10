@@ -236,11 +236,11 @@ var COMPANY = [
     // title: "Read our blog",
     // href: "https://the-guild.dev/blog"
   },
-  {
-    children: "欢迎订阅",
-    // title: "Newsletter",
-    // href: "https://the-guild.dev/newsletter"
-  }
+  // {
+  //   children: "欢迎订阅",
+  //   // title: "Newsletter",
+  //   // href: "https://the-guild.dev/newsletter"
+  // }
 ];
 var COMMUNITY = [
   {
@@ -299,7 +299,8 @@ function Footer({
         "bg-[#fafafa] py-[60px] text-base dark:bg-[#0f1114] md:py-[140px]",
         className
       ),
-      children: /* @__PURE__ */ jsx16("div", { className: "container max-w-[90rem]", children: /* @__PURE__ */ jsxs9("div", { className: "relative flex justify-between gap-10 max-md:flex-col", children: [
+      children: [
+/* @__PURE__ */ jsx16("div", { className: "container max-w-[90rem]", children: /* @__PURE__ */ jsxs9("div", { className: "relative flex justify-between gap-10 max-md:flex-col", children: [
         /* @__PURE__ */ jsxs9(
           Anchor,
           {
@@ -332,9 +333,29 @@ function Footer({
           /* @__PURE__ */ jsx16("h3", { className: classes.title, children: "公司相关" }),
           renderLinks(COMPANY)
         ] }),
-        /* @__PURE__ */ jsx16("div", { className: "flex gap-5 text-[#b4b5be]", children: COMMUNITY.map(({ icon: Icon, ...iconProps }) => /* @__PURE__ */ jsx16(Anchor, { className: classes.anchor, ...iconProps, children: /* @__PURE__ */ jsx16(Icon, { className: "h-5 w-auto" }) }, iconProps.title)) }),
+        // /* @__PURE__ */ jsx16("div", { className: "flex gap-5 text-[#b4b5be]", children: COMMUNITY.map(({ icon: Icon, ...iconProps }) => /* @__PURE__ */ jsx16(Anchor, { className: classes.anchor, ...iconProps, children: /* @__PURE__ */ jsx16(Icon, { className: "h-5 w-auto" }) }, iconProps.title)) }),
         // /* @__PURE__ */ jsx16(SvgCsaStarLevelOne, { className: "absolute right-0 ml-auto h-[4.5rem] w-auto md:bottom-0" })
-      ] }) })
+        
+      ] }
+    ),  
+  }),
+
+  /* @__PURE__ */ jsx16("div", {
+    className: "text-center mt-8 text-sm text-gray-500",
+    children: /* @__PURE__ */ jsxs9("div", {
+      children: [
+        /* @__PURE__ */ jsx16("p", {
+          children: "Copyright © 2025 - 2026 重庆华飞数智互联网科技有限责任公司 版权所有　电话：18996366862"
+        }),
+        /* @__PURE__ */ jsx16("p", {
+          children: "地址：重庆市渝中区七星岗街道中山一路85号4层1-5-421　　ICP备案：渝ICP备2025052425号"
+        })
+      ]
+    })
+  })
+
+      ]
+
     }
   );
 }
