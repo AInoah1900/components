@@ -26,16 +26,16 @@ import {
 // src/products.ts
 var PRODUCTS = {
   HIVE: {
-    name: "ChatBot",
-    title: "Schema registry for your GraphQL workflows",
-    href: "https://the-guild.dev/graphql/hive",
+    name: "对话机器人",
+    title: "对话机器人",
+    // href: "https://the-guild.dev/graphql/hive",
     logo: SvgHive,
     primaryColor: "#ffb21d"
   },
   MESH: {
-    name: "Mesh",
-    title: "A fully-featured GraphQL gateway framework",
-    href: "https://the-guild.dev/graphql/mesh",
+    name: "AI数字人",
+    title: "AI数字人",
+    // href: "https://the-guild.dev/graphql/mesh",
     logo: SvgMesh,
     primaryColor: "#1bcbe2"
   },

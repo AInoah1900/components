@@ -322,9 +322,9 @@ function Footer({
           /* @__PURE__ */ jsx16("h3", { className: classes.title, children: "服务案例" }),
           renderLinks([
             {
-              children: "Press Kit",
-              title: "Press Kit",
-              // href: "https://the-guild.dev/logos"
+              children: "服务案例",
+              title: "服务案例",
+              href: "http://localhost:3000/service"
             },
             ...resources
           ])
@@ -348,7 +348,7 @@ function Footer({
           children: "Copyright © 2025 - 2026 重庆华飞数智互联网科技有限责任公司 版权所有　电话：18996366862"
         }),
         /* @__PURE__ */ jsx16("p", {
-          children: "地址：重庆市渝中区七星岗街道中山一路85号4层1-5-421　　ICP备案：渝ICP备2025052425号"
+          children: "地址：重庆市渝中区七星岗街道中山一路85号4层1-5-421　　ICP备案：渝ICP备2025052425号-1"
         })
       ]
     })
