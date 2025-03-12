@@ -228,18 +228,18 @@ import { jsx as jsx16, jsxs as jsxs9 } from "react/jsx-runtime";
 var COMPANY = [
   {
     children: "关于我们",
-    // title: "Learn more about us",
-    // href: "https://loca/about-us"
+    title: "了解更多关于我们的信息",
+    href: "https://jiujuaner.com/about-us"
   },
   {
     children: "新闻资讯",
-    // title: "Read our blog",
-    // href: "https://the-guild.dev/blog"
+    title: "阅读我们的博客",
+    href: "https://jiujuaner.com/blog"
   },
   // {
   //   children: "欢迎订阅",
-  //   // title: "Newsletter",
-  //   // href: "https://the-guild.dev/newsletter"
+  //   // title: "订阅我们的新闻",
+  //   // href: "https://jiujuaner.com/newsletter"
   // }
 ];
 var COMMUNITY = [
@@ -305,7 +305,7 @@ function Footer({
           Anchor,
           {
             className: "flex items-center gap-2 self-start",
-            href: "http://localhost:3000",
+            href: "https://jiujuaner.com",
             sameSite,
             ...logo,
             children: [
@@ -324,7 +324,7 @@ function Footer({
             {
               children: "服务案例",
               title: "服务案例",
-              href: "http://localhost:3000/service"
+              href: "https://jiujuaner.com/service"
             },
             ...resources
           ])
@@ -1005,7 +1005,7 @@ function GuildUnifiedLogo({
           "flex items-center gap-x-1.5 transition-opacity hover:opacity-75",
           children && "max-md:hidden"
         ),
-        href: "http://localhost:3000",
+        href: "https://jiujuaner.com",
         children: [
           /* @__PURE__ */ jsx28(SvgGuild, { className: "h-9 w-auto" }),
           /* @__PURE__ */ jsx28(SvgTheGuild, { className: "w-11" })
@@ -1080,17 +1080,17 @@ function addGuildCompanyMenu(items) {
       items: {
         about: {
           title: "About",
-          href: "https://the-guild.dev/about-us",
+          href: "https://jiujuaner.com/about-us",
           newWindow: true
         },
         blog: {
           title: "Blog",
-          href: "https://the-guild.dev/blog",
+          href: "https://jiujuaner.com/blog",
           newWindow: true
         },
         contact: {
           title: "Contact",
-          href: "https://the-guild.dev/#get-in-touch",
+          href: "https://jiujuaner.com/#get-in-touch",
           newWindow: true
         }
       },
@@ -1178,7 +1178,7 @@ function defineConfig({
           /* @__PURE__ */ jsx31("meta", { property: "og:url", content: canonical }, 4)
         ],
         /* @__PURE__ */ jsx31("meta", { name: "twitter:card", content: "summary_large_image" }),
-        /* @__PURE__ */ jsx31("meta", { name: "twitter:site", content: "https://the-guild.dev" }),
+        /* @__PURE__ */ jsx31("meta", { name: "twitter:site", content: "https://jiujuaner.com" }),
         /* @__PURE__ */ jsx31("meta", { name: "twitter:creator", content: "@TheGuildDev" }),
         /* @__PURE__ */ jsx31("meta", { property: "og:type", content: type }),
         /* @__PURE__ */ jsx31("meta", { property: "og:site_name", content: websiteName }),
