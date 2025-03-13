@@ -1161,9 +1161,7 @@ function defineConfig({
           // other pages
           asPath
         )}`,
-        image = `https://og-image.the-guild.dev/?product=${websiteName}&title=${encodeURI(
-          pageTitle
-        )}`
+        image = `https://jiujuaner.com/static/download_huafei.png`
       } = frontMatter;
       const title = `${pageTitle} (${websiteName})`;
       return /* @__PURE__ */ jsxs20(Fragment5, { children: [

@@ -26,15 +26,15 @@ import {
 // src/products.ts
 var PRODUCTS = {
   HIVE: {
-    name: "对话机器人",
-    title: "对话机器人",
+    name: "AI 智能聊天机器人",
+    title: "AI 智能聊天机器人",
     href: "https://jiujuaner.com/chatbot",
     logo: SvgHive,
     primaryColor: "#ffb21d"
   },
   MESH: {
-    name: "AI数字人",
-    title: "AI数字人",
+    name: "AI 虚拟数字",
+    title: "AI 虚拟数字",
      href: "https://jiujuaner.com/digital-human",
     logo: SvgMesh,
     primaryColor: "#1bcbe2"
