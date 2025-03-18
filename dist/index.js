@@ -345,10 +345,10 @@ function Footer({
     children: /* @__PURE__ */ jsxs9("div", {
       children: [
         /* @__PURE__ */ jsx16("p", {
-          children: "Copyright © 2025 - 2026 重庆华飞数智互联网科技有限责任公司 版权所有　电话：18996366862"
+          children: "Copyright © 2025 - 2026 重庆华飞数智互联网科技有限责任公司 版权所有　电话：18996366862　邮箱：jiujuanoffice@163.com"
         }),
-        /* @__PURE__ */ jsx16("p", {
-          children: "地址：重庆市渝中区七星岗街道中山一路85号4层1-5-421　　ICP备案：渝ICP备2025052425号-1"
+        /* @__PURE__ */ jsxs9("p", {
+          children: ["地址：重庆市渝中区七星岗街道中山一路85号4层1-5-421　　ICP备案：渝ICP备2025052425号-1　　", /* @__PURE__ */ jsx16("a", {href: "https://beian.mps.gov.cn/#/query/webSearch?code=50010302505359", rel: "noreferrer", target: "_blank", style: {display: "inline-flex", alignItems: "center"}, children: [/* @__PURE__ */ jsx16("img", {src: "/static/china-police.png", alt: "公安备案图标", style: {height: "14px", marginRight: "5px"}}), "渝公网安备50010302505359号"]})]
         })
       ]
     })

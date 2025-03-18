@@ -35,7 +35,7 @@ var PRODUCTS = {
   MESH: {
     name: "AI 虚拟数字",
     title: "AI 虚拟数字",
-     href: "https://jiujuaner.com/digitalhuman",
+    href: "https://jiujuaner.com/digitalhuman",
     logo: SvgMesh,
     primaryColor: "#1bcbe2"
   },
